@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="style.css">
+    <script src="functions.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    
+    <title>Home</title>
+</head>
+<body>
+    
+    <header>
+    <div id = "header_elements">
+                   
+                    <div class="active" id = "home" style = "order:1" onclick="location.href='Home.html'">About me</div>
+                    <div id = "proj" style="order: 2" onclick="location.href='My projects.html'">My projects</div>
+                    <div id = "resume"style="order: 4"> <button onclick="window.open('.vscode/Fieffe-Bedard_m_40231764_CV.pdf')">Resume</button></div>
+        </div>
+    </header>
+
+
+    <content>
+        
+        <div class="about_me">
+            <h1>Who am I? What is this?</h1>
+            <p>Hey my name is Maëlle F-B and im a software engineering student at Concordia. 
+            <br> This website is not here to tell you my whole life story as I'm sure no one wants 
+            <br> hear about my pandemic days playing minecraft. 
+            <br><br>I'm a Student taking on the world of software engineering one step at a time.
+            <br><br> I've always loved old school websites so i've decideded to make one of my own. 
+            <br>they have always felt like where infused with so much love, care and a tinge of nonsense.  
+            <br> hense the inspiration behind this website. 
+            <br> Here you will be able to learn a litttle more about me and my past and future projects. 
+            <br><br> 
+            Contact me at: maelle.fbedard@gmail.com
+        
+        </p>
+           
+           <div class="Marty_meow"> meow <br><br>meow</div>
+            <img src = "Marty.png" class="marty"></img>
+                
+            
+        
+            </div>
+     
+            <img class = "portrait" src="Maelle_pic.png" alt="profile pic">
+      
+        <div class="blob">
+              
+                <div class = "coding">
+                    <h2>Coding Skills</h2>
+                    <table class = "coding_items">
+                        <tr>
+                            <td><div>Python</div></td>
+                            <td><div>Javascript</div></td>
+                            <td><div>HTML</div></td>
+                        </tr>
+                        
+                        <tr>
+                            <td> <div>Java</div></td>
+                            <td><div>C</div></td>
+                            <td> <div>CSS</div></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><div>Unreal Engine</div> </td>
+                            <td> <div>C++</div></td>
+                            <td> <div>Node.js</div></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class = "lang">
+                    <h2>Languages</h2>
+                           <div class="lang_flexbox">
+                            <div class="elements">English</div>
+                            <div class="elements">French</div>
+                            </div>
+                </div>
+                <div class = "hobbies">
+                    <h2>Hobies</h2>
+                    <div class = "hobbies_flexbox">
+                        <div>Reading High Fantasy </div>
+                        <div>Knitting</div>
+                        <div>Rock Climbing</div>
+                        <div>Coding :)</div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </content>
+    
+    <footer>
+        <div>
+       <a href="https://github.com/maellefb"> <img id = "git" class = "logos" src="Github_unactive.png" alt="github logo" 
+            onmouseover="git(1,this)"
+            onmouseout="git(2,this)"
+        />
+        </a> 
+       
+       <a href = "www.linkedin.com/in/maelle-fieffe-bedard">
+        <img id="link"class = "logos" src="linked_unactive.png " alt="linked logo"
+            onmouseover="linkden(1,this)"
+            onmouseout="linkden(2,this)"
+        />
+        </a>
+        </div>    
+    </footer>
+
+</body> 
+</html>
