@@ -1,0 +1,352 @@
+html
+{
+    background-color: rgb(255, 218, 186);
+    font-family: "Krona One", sans-serif;
+
+}
+
+a
+{
+    text-decoration: none;
+} 
+
+header
+{
+    height: 100px;
+}
+
+#header_elements
+{   
+    display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  column-gap: 15px;
+  
+}
+
+
+
+#header_elements > div
+{
+    text-align: center;
+    width: 120px;
+    margin: 20px;
+    margin-right: 100px;
+    line-height: 75px;
+    font-size: 15px;
+    color: rgb(22, 22, 20)
+}
+
+#home:hover
+{
+    color: rgb(59, 44, 79);
+    border:3px,solid,rgb(59, 44, 79);
+    border-radius:20px ;
+}
+
+#proj:hover
+{
+    color: rgb(59, 44, 79);
+    border:3px,solid,rgb(59, 44, 79);
+    border-radius:20px ;
+    width:130px;
+}
+
+#edu:hover
+{
+    color: rgb(59, 44, 79);
+    border:3px,solid,rgb(59, 44, 79);
+    border-radius:20px ;
+}
+
+#resume:hover
+{
+    background-color: rgb(255, 218, 186);
+    color:  rgb(22, 22, 20);
+    text-align: center;
+    
+}
+
+button:hover
+{
+    background-color: rgb(255, 218, 186);
+    color:  rgb(22, 22, 20);
+    text-align: center;
+}
+
+.active
+{
+    color: rgb(59, 44, 79);
+    border:3px,solid,rgb(59, 44, 79);
+    border-radius:20px ;
+}
+
+button
+{
+    font-size: 24px;
+    margin-right: 40px;
+    width: 160px;
+    height: 55px;
+    color: rgb(255, 218, 186);
+    background-color:  rgb(22, 22, 20);
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+}
+
+content
+{
+
+    background-color: brown;
+}
+
+.about_me
+{
+    margin-left: 20px;
+}
+
+.about_me > p
+{
+    color:rgb(54, 37, 100)
+    
+}
+
+.blob> div> h2
+{
+    color: rgb(255, 255, 255);
+}
+
+ .portrait
+{
+    position:absolute;
+    z-index: 10;
+    top: 550px;
+    left:280px;
+    height: 300x;
+    width:250px;
+}
+
+.marty
+{
+    position: absolute;
+    height: 300x;
+    width:250px;
+    top: 175px;
+    left:1000px;
+}
+
+.Marty_meow {
+    animation: textgrowth 1s infinite alternate;
+    position: relative;
+    top: -200px;
+    left: 1300px;
+ }
+ 
+ @keyframes textgrowth {
+     0% {
+     font-size: 20px;
+     }
+     100% {
+     font-size: 25px;
+     }
+ }
+
+
+
+.textbox
+{
+    position: absolute;
+    top: 175px;
+    left:1300px;
+}
+
+.blob
+{
+    margin-top: 150px;
+    margin-left: 230px;
+    background-color: rgb(59, 44, 79);
+    height: 500px;
+    width: 80%;
+    border-radius: 250px;
+}
+
+.coding
+{
+    margin-left: 450px;
+    padding-top: 20px;
+}
+
+.coding> h2
+{
+    margin-left:20px;
+    margin-bottom: 0px;
+}
+
+.coding_items
+{
+      color:rgb(255, 218, 186);
+}
+
+tr, td
+{
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+
+ .lang 
+{
+    color:rgb(255, 218, 186);
+    margin-left: 700px;
+    padding-top: 50px;
+    width: 300px;
+}
+
+.lang_flexbox
+{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    column-gap: 75px;
+    
+}
+
+.hobbies
+{
+    position: relative;
+    z-index: 2;
+    margin-left: 300px;
+    margin-top:-70px;
+    width: 500px;
+}
+
+.hobbies_flexbox
+{
+    color:rgb(255, 218, 186);
+
+    margin-left: -100px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    flex-direction: row;
+}
+
+.hobbies_flexbox > div
+{
+  margin: 10px;
+}
+
+footer
+{
+    margin-top: 8px;
+}
+
+footer > div
+{
+    margin-left: 0%;
+}
+
+.logos
+{
+    padding-left: 10px;
+    width: 75px;
+    height: 75px;
+}
+
+
+
+/* here is the styling for the project */
+
+.blobs
+{
+    width:639px;
+    height:285px;
+    border-radius: 250px;
+    background-color:rgb(59, 44, 79) ;
+ 
+}
+
+#blob1
+{
+    margin-top:40px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+   
+}
+
+#blob2
+{
+    margin-top: 20px;
+    margin-left:700px;
+}
+
+#blob3
+{
+    margin-top:40px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+   
+}
+
+#blob4
+{
+    margin-top:40px;
+    margin-left: 700px;
+    margin-bottom: 40px;
+}
+
+/* Here is where the hover property of the images are set */
+
+.project_image1, .project_image2,.project_image3, .project_image4
+{
+    width: 639px;
+    height: 285px;
+    opacity: 0;
+}
+
+
+
+.text_place1
+{
+    color:rgb(255, 255, 255);
+    margin-top: -280px;
+    margin-left: 80px;
+    z-index: 5px;
+}
+
+.text_place2
+{
+    color:rgb(255, 255, 255);
+    margin-left:80px;
+    margin-top: -280px;
+
+}
+
+.text_place3
+{
+    color:rgb(255, 255, 255);
+    padding-left:80px;
+    margin-top: -280px;
+
+}
+
+
+.format_body_text
+{
+    color:rgb(255, 218, 186);
+    font-size: 15px;
+    
+}
+
+
+.project_image1, .text_place1 {
+    transition: 0.5s ease;
+}
+
+.text_place4
+{
+    color:rgb(255, 255, 255);
+    padding-left:80px;
+    margin-top: -280px;
+}

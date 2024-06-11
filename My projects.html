@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="style.css">
+    <script src="functions.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    
+    <title>Home</title>
+</head>
+<body>
+    
+    <header>
+    <div id = "header_elements">
+                    <div id = "home" style = "order:1" onclick="location.href='Home.html'">About me</div>
+                    <div class="active" id = "proj" style="order: 2" onclick="location.href='My projects.html'">My projects</div>
+                    <div id = "resume"style="order: 4"> <button>Resume</button></div>
+        </div>
+    </header>
+
+
+    <content>
+       
+       <a href="https://www.youtube.com/watch?v=MtNqBIyQuSE">
+        <div class = "blobs" id="blob1" 
+        onmouseover= "blob('text_place1','project_image1')"
+        onmouseout="blob('project_image1','text_place1')"
+        >  
+            <img class="project_image1" class="imgs" src = "Project_newton.png" alt="project_newton picture" width="639px" height="285px" opacity="0" />
+            
+        <div class="text_place1">
+                <h2>Newtons's Law</h2>
+            <div class = "format_body_text" >
+                <p> <b> Language(s):</b> Unreal-engine Block builder</p>
+                <p><b>Descrition:</b> Project made in School using unreal engine. <br>
+                    I failed miserably at making a car in physics. <br>
+                     So instead I made a program helping my teacher <br>demonstrate the law of collision in physics </p>
+       
+                    </div>
+                    </div>
+        </div>
+        </a>
+       
+       <a href="https://a3-thefleamarket-1.onrender.com">
+        <div class = "blobs" id="blob2"
+        onmouseover= "blob('text_place2','project_image2')"
+        onmouseout="blob('project_image2','text_place2')"
+        >  
+          <img  class="project_image2" src="Group 2.png" alt =  />
+            <div class = "text_place2">
+            <h2> The Flea Maret</h2>
+                
+                <div class="format_body_text" >
+                <p><b>Language(s):</b> HtML, CSS, JavaScript and Node.js</p>
+                <p><b>Description:</b> A website made for a school project. 
+                <br>many server side operation such as login and logout operation. 
+                <br>Data input and output, as well as searching and sorting through that data. </p>
+            </div>
+            </div>        
+            </div>
+        </a>
+
+       
+       <a href="">
+            <div class = "blobs" id="blob3"
+            onmouseover= "blob('text_place3','project_image3')"
+            onmouseout="blob('project_image3','text_place3')"    
+
+        > 
+            
+            <img class="project_image3" src="MyWebsite.png"/>
+
+            <div class="text_place3">
+            <h2>The Website!</h2>    
+            
+            <div class = "format_body_text">
+            <p><b>Language(s): </b> HTML, CSS and JavaScript</p>
+            <p><b>Description: </b> My personel website, as a project to myself and to 
+                showcase to future employers my past and future projects. This entire website was built as a challenge not using any 
+                templates other then figma. <br>I was going for an old-internet vibe :)</p>
+            </div>
+            </div>
+        </div>
+        </a>
+
+
+
+           <a href="https://thefantasyreviews.com/2024/02/16/reasons-why-you-should-read-the-stormlight-archive/"
+           
+           > <div class="blobs" id = "blob4"
+            onmouseover= "blob('text_place4','project_image4')"
+            onmouseout="blob('project_image4','text_place4')"    
+
+            >
+                <img class = "project_image4" src="Shallan.png"/>
+                <div class="text_place4" >
+                    <h2>Stromlight Data-Base </h2>
+                   
+                    <div class = "format_body_text" >
+                        <b>Currently in progress!!</b> <br>I am working on making a data-base<br> recording
+                         the knights radiants and sorting out all their powers<br>
+                        It's based of a high fantasy book series that <br>I love and therefore want to make a tool 
+                        <br>for other fans to use!
+                    </div>
+
+                </div>
+
+
+                </div> 
+            </a>
+
+
+    </content>
+
+    <div>
+        <p>Click here for more info!</p>
+        <div >
+            <iframe src="https://giphy.com/embed/kyA60hKb6OgD564g8M" width="50" height="50"  frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/stickers/transparent-arrow-heytheresia-kyA60hKb6OgD564g8M"></a></p>
+        </div>
+
+
+    <footer>
+        <div>
+       <a href="https://github.com/maellefb"> <img id = "git" class = "logos" src="Github_unactive.png" alt="github logo" 
+            onmouseover="git(1,this)"
+            onmouseout="git(2,this)"
+        />
+        </a> 
+       
+       <a href = "www.linkedin.com/in/maelle-fieffe-bedard">
+        <img id="link"class = "logos" src="linked_unactive.png " alt="linked logo"
+            onmouseover="linkden(1,this)"
+            onmouseout="linkden(2,this)"
+        />
+        </a>
+        </div>    
+    </footer>
+
+</body> 
+</html>
